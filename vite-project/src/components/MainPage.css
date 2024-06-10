@@ -1,0 +1,37 @@
+.main-container{
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+    width: 1450px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+.main-item{
+    margin-left: 350px;
+    list-style: none;
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-img1{
+    margin-right: 40px;
+}
+.main-input{
+    width: 830px;
+    height: 28px;
+    top: 20px;
+    left: 255px;
+    gap: 0px;
+    opacity: 0px;
+    margin-left: 80px;
+    background: #EBEBEB;
+    border:  transparent;  
+    border-radius: 50px;  
+}
+.main-img6{
+    margin-left: 70px;
+
+}

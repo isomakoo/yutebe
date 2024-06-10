@@ -1,0 +1,49 @@
+.about-container{
+  height: 900px;
+  background-color: white;
+  width: 200px;
+  margin: 0 auto;
+  padding: 0;
+  margin-top: 100px;
+}
+.about-item{
+    margin-top: 10px;
+    text-align: left;
+    list-style: none;
+}
+.about-tex{
+    font-family: Muli;
+    font-size: 24px;
+    line-height: 22.59px;
+    text-align: left;
+    color: #000000;
+    margin-top: 70px;
+    margin-left: 0px;   
+}
+.about-img1{
+    margin-right: 10px;
+}
+.about-items{
+    margin-top: 25px;
+    text-align: left;
+    list-style: none;
+}
+.about-iten{
+    display: flex;
+    align-items: center;
+    margin-left: -30px;
+    }
+.about-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-family: Muli;
+    font-size: 16px;
+    line-height: 14px;
+    text-align: left;
+    color: #898989;  
+}
+.about-link:hover{
+
+    color: red;
+}
