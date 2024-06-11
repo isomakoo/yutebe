@@ -8,7 +8,7 @@ import main6 from '../assets/images/Userpic.png'
 function Mainpage() {
 
   return (
-    <>
+    <div className='mainjon'>
      <div className="main-container">
        <img src={main2} alt="rasm"  className='main-img1'/>
        <img src={main1} alt="rasm"  className='main-img2'/>
@@ -20,7 +20,7 @@ function Mainpage() {
         </ul>
         <img src={main6} alt="rasm" className="main-img6" />
      </div>
-    </>
+    </div>
   )
 }
 

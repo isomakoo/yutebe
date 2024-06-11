@@ -1,8 +1,12 @@
+.mainjon{
+  width: 100%;
+  margin: 0;
+}
 .main-container{
     position: fixed;
     z-index: 1;
-    background-color: white;
     width: 1450px;
+    background-color: white;
     margin: 0 auto;
     padding: 0;
     display: flex;
@@ -17,7 +21,10 @@
     align-items: center;
 }
 .main-img1{
-    margin-right: 40px;
+   margin-left: 20px;
+}
+.main-img2{
+   margin-left: 40px;
 }
 .main-input{
     width: 830px;
@@ -26,7 +33,7 @@
     left: 255px;
     gap: 0px;
     opacity: 0px;
-    margin-left: 80px;
+    margin-left: 30px;
     background: #EBEBEB;
     border:  transparent;  
     border-radius: 50px;  

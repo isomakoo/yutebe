@@ -1,9 +1,14 @@
 .hero-container{
+    width: 100%;
+    background-color: white;
     margin: 0 auto;
-    width: 1450px;
 }
 .box{
-    width: 1350px;
+    /* background-color: rgb(255, 255, 255); */
+    width: 1450px;
+    margin: 0 auto;
+}
+.boxcha{
     display: flex;
     justify-content: space-between;
 }

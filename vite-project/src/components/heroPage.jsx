@@ -6,24 +6,23 @@ import HomePage from "./components/HomePage";
 import Mainpage from "./components/Mainpage";
 import Navbar from "./components/Navbar";
 import NewsPage from "./components/NewsPage";
-function App() {
+function heroPage() {
   return (
-    <> 
-<div className="hero-container"> 
-        <div className="box">
+    <>
+      <div className="hero-container">
         < Mainpage />
-          <div className="boxcha">
-         <About />
+        <div className="box">
+          <About />
           <nav>
-            <HomePage/>
+            <HomePage />
             <Navbar />
             <FooterPage />{" "}
           </nav>
-          </div>
         </div>
       </div>
+      <NewsPage/>
     </>
   );
 }
 
-export default App;
+export default heroPage;

@@ -16,7 +16,10 @@ import about14 from "../assets/images/14.png";
 import about15 from "../assets/images/15.png";
 import about16 from "../assets/images/16.png";
 import about17 from "../assets/images/17.png";
-
+import { Link } from "react-router-dom";
+const uchFuntcion =("clik", (e)=>{
+    
+})
 function About() {
   return (
     <>
@@ -24,9 +27,9 @@ function About() {
         <ul className="about-item">
           <li className="about-iten">
             {" "}
-            <a href="#" className="about-link">
+            <Link to="/news" className="about-link" onChange={uchFuntcion}>
               <img src={about1} alt="rasm" className="about-img1" /><p> Home</p>
-            </a>
+            </Link>
           </li>
           <li className="about-iten">
             {" "}

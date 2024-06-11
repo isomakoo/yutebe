@@ -4,6 +4,7 @@ import home1 from "../assets/images/Oval.png";
 function HomePage() {
   return (
     <>
+    
       <div className="home-container">
         <nav className="home-item">
           <img src={home1} alt="rasm" />
